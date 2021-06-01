@@ -1,0 +1,124 @@
+/*
+*Dashboard - CSS Style Sheet
+*/
+
+
+body {
+  background-image: url("https://mcdn.wallpapersafari.com/medium/49/49/eCvpZq.png");
+  height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Navbar */
+.navbar {
+    max-height: 60px;
+  }
+  .navigation .navbar-brand {
+    color: white;
+    margin-left: 0px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: white;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+  .navbar {
+    background-color: white;
+    font-size: 25px; 
+  }
+  .active, .dropdown-menu .dropdown-item:active a:hover {
+    background-color: white;
+  }
+  .dropdown-item {
+    color: #213159;
+  }
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #f04b4c;
+  }
+  
+  .nav-link:hover {
+    background-color:#E7E7E7;
+   }
+  
+  .navbar-brand:hover {
+  color: #f04b4c;
+  }
+  
+  a {
+    color: #E7E7E7;
+    font-size: 15px;
+  }
+
+/* Images */
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.active, .panel:hover {
+    border-color: #213159;
+    border-style: solid;
+
+
+}
+.vizualization {
+    width: 50%;
+    height: 50%;
+}
+
+/* Title */
+.title {
+    color: #3d6098;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+/*Paragraph */
+p {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* Box */
+.box {
+    margin-top:  50px;
+    margin-bottom: 60px;
+    padding: 10px 30px 10px;
+    color: #213159;
+    background-color: whitesmoke;
+}
+
+/* Table */
+.table {
+    font-size: 15px;
+    border-top-color: white;
+  }
+
+/* Footer */
+footer {
+background-color: #213159;
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: #f04b4c;
+color: white;
+min-height: 60px;
+font-family:  Arial, Helvetica, sans-serif;
+font-size: 12px;
+text-align: center;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+padding-top: 15px;
+}
+
+
+
+
+
+
+
